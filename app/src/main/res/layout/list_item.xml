@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+   <com.google.android.material.card.MaterialCardView
+       style="@style/Widget.Material3.CardView.Elevated"
+       android:id="@+id/cardView"
+       android:layout_margin="6dp"
+       android:layout_width="match_parent"
+       app:cardBackgroundColor="@color/md_theme_light_onErrorContainer"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:padding="4dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <com.google.android.material.textview.MaterialTextView
+               android:textColor="@color/white"
+               android:textSize="22sp"
+               android:text="name"
+               android:id="@+id/nameTextView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </com.google.android.material.textview.MaterialTextView>
+           <com.google.android.material.textview.MaterialTextView
+               android:textColor="@color/white"
+               android:textSize="18sp"
+               android:text="email"
+               android:id="@+id/emailTextView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </com.google.android.material.textview.MaterialTextView>
+
+       </LinearLayout>
+
+   </com.google.android.material.card.MaterialCardView>
+</layout>
